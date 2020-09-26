@@ -1,2 +1,25 @@
-test
+Descrierea aplicatiei StackOverflow
+
+-Aplicatia StackOverflow este o comunitate in cadrul careia utilizatorii se pot ajuta reciproc.
+-Aplicatia StackOverflow este destinata atat profesionistilor sau personelor pasionate care codeaza, cat si amatorilor sau  celor care au un proiect la scoala/facultate si intampina anumite probleme sau erori. 
+-Aplicatia StackOverflow include o platforma publica, in care oricine poate adresa intrebari si primi raspunsuri, sau doar raspunde la intrebari, precum si o platforma privata care permite schimbul de informatie doar intre membrii unei echipe. Orice utilizator poate vedea intrebarile si raspunsurile fara a fi logat, insa pentru a putea adresa intrebari sau pentru a raspunde la anumite intrebari este necesara logarea.
+-Aplicatia StackOverflow are optiunea de recrutare, fiind utila atat pentru cei care doresc sa recruteze, cat si pentru cei ce isi cauta un loc de munca.
+-Validarea raspunsurilor este necesara, deoarece utilizatorii au nevoie sa stie daca raspunsurile primite sunt corecte. Acesta validare se face prin acordarea posibilitatii unui utilizator de a vota raspunsurile.
+-Consider ca aceasta platforma este utila, deoarece ajuta cu sfaturi la posibilele erori intalnite, utilizatorii pot primi raspunsuri la intrebari, se pot impartasi cunostinte, se poate gasi un loc de munca, iar aplicatia te poate ajuta sa calculezi salariul in functie de experinta, regiune si nivelul de educatie.
+
+Functionalitati ale StackOverflow
+
+-orice utilizator poate vedea intrebarile si raspunsurile fara a fi logat, astfel incat atunci cand are o problema, poate gasi rezolvarea foarte rapid; daca, insa, problema lui nu a fost intalnita si de alti utilizatori, el se poate loga si poate adresa intrebarea, asteptand dupa posibile solutii;
+-raspunsurile adresate pot primi voturi, astfel intrebarile cu cele mai multe voturi ajung in varf, adica sunt considerate ca fiind cele mai bune raspunsuri, fiind usor de gasit;
+-utilizatorii pot vedea pentru fiecare intrebare cate raspunsuri, voturi si vizualizari are;
+-intrebarile pot avea etichete, astfel incat vor fi mai usor de gasit. O intrebare poate avea mai multe etichete, deoarece aceasta poate fi legata de mai multe subiecte;
+-aplicatia este utila atat pentru cei doresc sa recruteze, cat si pentru cei care cauta un loc de munca;
+-se poate folosi platforma privata pentru a afisa informatia doar pentru membrii unei echipe, astfel comunicarea intre membrii echipei fiind simplificata;
+-in cadrul aplicatiei exista filtru pentru intrebari, cat si posibilitatea de a cauta dupa anumite cuvinte cheie sau titluri, etichete;
+-exista un sistem de reputatie care se obtine cu fiecare vot pe care utilizatorul il primeste pentru o intrebare sau un raspuns;
+-utilizatorul care a pus intrebarea poate alege un raspuns ca fiind cel mai potrivit, astfel cei care se vor lovi de aceasta problema vor gasi si mai rapid solutia;
+-exista optiunea de follow pentru o intrebare, iar cei ce o activeaza vor fi notificati atunci cand se adauga raspunsuri pentru acea intrebare;
+-exista conceptul de achievements, astfel incat un utilizator poate primi anumite privileghii si badge-uri atunci cand indeplineste anumite criterii;
+-aplicatia are si optiunea de calculator de salariu, in functie de regiuni, nivel de educatie si nivel de experienta.
+
 
