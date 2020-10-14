@@ -1,0 +1,66 @@
+                				     Tema 3
+
+
+Workflow from Question Context 
+•	Bounded context: “Question context”
+
+	Workflow: “Post new question”
+	Triggered by: “Post new question request”
+	Input: “Question form” -Title
+                         -Tags (domeniul/domeniul de apartenenta a intrebarii)
+			         -body(informatii detaliate despre intrebare)
+	Other inputs-dependencies
+-validation of the text via an ML
+-check if user is log in
+	Output: “New Question Accepted and Posted”
+	Side effects: : Confirmation question posted to the user and user is being notified
+Workflow documentation
+•	Workflow: “Post new question”
+	Input: “Question form”
+	Output: “Invalid Question” or “New Question Accepted and Posted” 
+//step1
+
+    Do validate question form
+//step2
+
+    Question review by an ML to see if question contains inadequate words
+     If question is invalid then
+	Stop
+//step3
+
+     Send notification to confirm that the question is accepted.
+
+//step4
+
+     Return “New Question Accepted” event
+
+•	Substep: “Validate question form”
+	Input: “Unvalidated question form”
+	Output: “Validated question form”
+	Dependencies: “Text analyzer and validator(ML)”
+•	Analyze the text via an ML
+•	Validate title,tags and body content
+If the question is accepted by ML
+	Return validated question form
+	Confirmation message to user
+Else if the question is confused
+	Propose question for manual review
+•	Else
+	Return validation error
+
+•	Substep “Propose question for manual review”
+
+	Input: “Unvalidated question form”
+	Output: “Validated or unvalidated question form”
+	Dependencies: “Text validator”
+
+•	Analyze the text
+If the question is accepted by Reviewer
+
+	Return validated question form
+Else
+	Return validation error
+
+
+
+
