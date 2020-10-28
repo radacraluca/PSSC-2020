@@ -9,7 +9,7 @@ using LanguageExt;
 
 namespace Test.App
 {
-    class Program_Tema5
+    class ProgramTema5
     {
         static void Main(string[] args)
         {
