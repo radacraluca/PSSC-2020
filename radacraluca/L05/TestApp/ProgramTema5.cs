@@ -1,4 +1,4 @@
-﻿using Question.Domain.PostNewQuestionWorkflow;
+using Question.Domain.PostNewQuestionWorkflow;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -9,7 +9,7 @@ using LanguageExt;
 
 namespace Test.App
 {
-    class ProgramTema5
+    class Program_Tema5
     {
         static void Main(string[] args)
         {
